@@ -61,16 +61,16 @@ console.log("The total word in the userInput have = ", count);
 let password = "Dinesh@123";
 
 i = 1;
-while (i<=3) {
-  let Attempt = prompt("Enter your password");
+while (i <= 3) {
+  let v = 4 - i;
+  let Attempt = prompt(`Enter your password \nyou have only attemts:${v}`);
   if (password === Attempt) {
     console.log("Login Successfully");
     break;
   } else {
     console.log("Wrong password ");
-    console.log("you have only attemts:",3-i);
+    console.log("you have only attemts:", 3 - i);
   }
-  
+
   i++;
 }
-
