@@ -1,4 +1,4 @@
-function makeTextBlink() {
+function Blink() {
   const text = document.querySelector(".blink");
 
   setInterval(() => {
@@ -10,4 +10,4 @@ function makeTextBlink() {
   }, 1000);
 }
 
-makeTextBlink();
+Blink();
